@@ -36,5 +36,8 @@
         "test": "node lib/ace/test/all.js",
         "lint": "eslint \"lib/ace/**/*.js\"",
         "fix": "eslint --fix 'lib/ace/**/*.js'"
+    },
+    "dependencies": {
+        "htmlhint": "^0.14.2"
     }
 }
